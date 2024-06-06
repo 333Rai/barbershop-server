@@ -11,8 +11,7 @@ class AppointmentService {
 		});
 		const mailOptions = {
 			from: data.email,
-			// to: 'rai.zheenbekov@gmail.com',
-			to: 'zheenbekov.rai333@gmail.com',
+			to: 'alymzhaz@gmail.com',
 			subject: 'Make an appointment with a hairdresser',
 			text: `Name: ${data.name}\nEmail: ${data.email}\nPhone: ${data.phone}\nDate: ${data.date}\nTime: ${data.time}\nBarber: ${data.barber}\nService: ${data.service}`,
 		};
